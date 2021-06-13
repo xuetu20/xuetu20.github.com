@@ -2,9 +2,9 @@
 <html lang="zh-cmn-hans">
 <head>
   <meta charset="UTF-8">
-  <title>惗你的往昔 - 汝者非鱼写给青春的情书</title>
+  <title>悸动 - 心上人</title>
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-  <meta name="keywords" content="惗你的往昔,写给青春的情书,迟到的情书,念你的往昔,你的往昔,月如,汝者非鱼">
+  <meta name="keywords" content="悸动,心上人,情书,给青春的情书,写给青春的情书,惗你的往昔,月如,汝者非鱼">
   <meta name="Description" content="汝者非鱼写给青春的情书，愿那个曾经出现在我生命中让我悸动的女孩永远开心，永远幸福。">
   <link rel="stylesheet" href="./yue/default.css">
   <script src="https://cdn.jsdelivr.net/jquery/1.7.1/jquery.min.js"></script>
@@ -162,9 +162,7 @@
             }
             foot.draw();
             tree.snapshot("p2", 500, 0, 610, 680);
-
-            // 会有闪烁不得意这样做, (＞﹏＜)
-            canvas.parent().css("background", "url(" + tree.toDataURL('image/png') + ")");
+		
             canvas.css("background", "#ffe");
             $await(Jscex.Async.sleep(300));
             canvas.css("background", "none");
