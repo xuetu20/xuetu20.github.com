@@ -493,3 +493,5 @@
     window.Point = Point;
     window.Tree = Tree;
 })(window);
+
+document.oncontextmenu = function(){return false};
