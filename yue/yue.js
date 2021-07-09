@@ -493,12 +493,3 @@
     window.Point = Point;
     window.Tree = Tree;
 })(window);
-
-//百度统计
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?6f19b5c1d035097b8c24d3bc6ac82f41";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
